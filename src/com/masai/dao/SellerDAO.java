@@ -9,8 +9,12 @@ public interface SellerDAO {
 	
 	public String ProductList(Product p);
 	
-	public String updateproduct(Product p ,int id);
+	public String updateproduct(Product p ,String P_name);
 	
-	public String DeleteProduct(Product p, int id);
+	public String DeleteProduct(String P_name);
+	
+	public String AddProduct(Product P);
+	
+	public  Product SoldHistory();
 
 }

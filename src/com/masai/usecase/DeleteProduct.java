@@ -12,15 +12,15 @@ public class DeleteProduct {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter the Product Id");
-		int id = sc.nextInt();
+		System.out.println("Enter the Product Name");
+		String name = sc.next();
 		
 		SellerDAO s = new SellerDAOImpl();
 		
 		Product p = new Product();
-		p.setId(id);
+		p.setName(name);
 		
-		String result =s.DeleteProduct(p, id);
+		String result =s.DeleteProduct(name);
 		System.out.println(result);
 	}
 
