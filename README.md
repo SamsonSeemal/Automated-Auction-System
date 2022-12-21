@@ -11,3 +11,8 @@ Automated Auction System is an Application Software that is used for the buying 
 3.Seller
 
 Admin can view register buyer and seller list. He can also look sold and unsold list of product and remove the unsold product also. Buyer can register and login, than after view or search product by catagory. He can also see buyer list and their products and Buy the products. Seller can register and login, than create their own list than after add product in this list, delete unsold product. He can also see the sold product and update price and quantity of their products also.
+
+
+Demo link: https://drive.google.com/file/d/1Tsdoj1OgCzgUesmuD73fdUsnnmLvoZmi/view?usp=share_link
+
+
